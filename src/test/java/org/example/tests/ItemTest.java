@@ -13,7 +13,7 @@ import java.time.Duration;
 
 public class ItemTest extends Base {
     @Test
-    public void AddItem() {
+    public void problemUserAddItem() {
         //Log in with problem user credentials
         logIn("problem");
         // Add item
@@ -27,7 +27,7 @@ public class ItemTest extends Base {
     }
 
     @Test
-    public void insideItem() {
+    public void problemUserProductImage() {
         //Log in with problem user credentials
         logIn("problem");
         String imageBeforeTap = "(//android.view.ViewGroup[@content-desc=\"test-Item\"])[1]";
